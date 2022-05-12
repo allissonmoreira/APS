@@ -1,0 +1,279 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  
+    
+}
+
+.center{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1800px;
+    margin: 0 auto;
+    padding: 0 2%;
+    
+    
+}
+
+html,body{
+    height: 100%;
+    overflow-y: hidden;
+    overflow-x: hidden;
+   
+
+}
+
+header{
+    height: 200px;
+    padding: 20px 0;
+    
+}
+
+.logo{
+    width: 50%;
+    
+}
+
+.menu{
+    padding-top: 30px;
+    width: 50%;
+    text-align: right;
+    
+}
+
+.menu a{
+    color: black;;
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 15px;
+    
+}
+
+section.sobre{
+    height: calc(100% - 200px);
+    position: relative;
+   
+    
+}
+
+.extras{
+    position: absolute;
+    bottom: -200px;
+    right: -290px;
+    width: 700px;
+    height: 700px;
+    border-radius: 50%;
+    background-color: #2E8B57;
+}
+
+.extrass{
+    position: absolute;
+    bottom: -640px;
+    left: -500px;
+    width: 800px;
+    height: 800px;
+    border-radius: 50%;
+    background-color: #2E8B57;
+}
+
+.extrasss{
+    position: absolute;
+    bottom: -600px;
+    right: -500px;
+    width: 800px;
+    height: 800px;
+    border-radius: 50%;
+    background-color: #2E8B57;
+}
+
+.social-media{
+    position: absolute;
+    right: 530px;
+    top: 120px;
+    background-color: #2E8B57;
+    color: #2E8B57;
+    
+    
+}
+
+.social-media img{
+    width: 25;
+    margin-right: 15px;
+    background-color: #2E8B57;
+    color: #2E8B57;
+   
+}
+
+.social-medias{
+    position: absolute;
+    right: 530px;
+    top: 120px;
+    background-color: #2E8B57;
+    color: #2E8B57;
+    
+}
+
+.social-medias img{
+   
+    margin-right: 15px;
+    background-color: #2E8B57;
+    color: #2E8B57;
+}
+
+
+.texto-sobre{
+    margin-top: 100px;
+    
+}
+
+.texto-sobre h1{
+    font-size: 50px;
+    color: black;
+ 
+}
+
+.texto-sobre p{
+    margin: 20px 0;
+    color: black;
+    font-size: 14px;
+    font-weight: bold;
+    max-width: 800px;
+   
+}
+
+.texto-sobre button{
+    border: 0;
+    background-color: #2E8B57;
+    color: white;
+    border-radius: 10px;
+    width: 100px;
+    height: 30px;
+    cursor: pointer;
+}
+
+a:hover {
+    color: #2E8B57;
+   
+   
+}
+
+.social-medias a:hover {
+    color: #2E8B57;
+    background-color: #2E8B57;
+    
+   
+
+}
+
+.texto-sobre1 h1{
+    font-size: 50px;
+    color: black;
+ 
+}
+
+.texto-sobre1 h2{
+    font-size: 20px;
+    color: black;
+    
+   
+}
+
+.texto-sobre1 p{
+    margin: 20px 0;
+    color: black;
+    font-size: 14px;
+    font-weight: bold;
+    max-width: 1100px;
+   
+   
+    
+   
+}
+
+
+ul.a {
+    list-style-type: square;
+    color:#2E8B57;
+    
+  }
+
+  ul.b {
+    list-style-type: square;
+    color:#2E8B57;
+    
+  }
+
+  ul.c {
+    list-style-type: square;
+    color:#2E8B57;
+    
+}
+
+ul.d {
+    list-style-type: square;
+    color:#2E8B57;
+    
+}
+
+body{
+    transition: background 0.5s linea, color 0.5s linear;
+}
+
+body.dark{
+    background-color: black;
+    color: white;
+}
+
+.container{
+    position: fixed;
+    top: 10px;
+    right: 10px;
+} 
+
+.estiloBotao{
+    background-color: black;
+    border-radius: 40%;
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    user-select: none;
+    transition: background 0.5s linear;
+    
+}
+
+body.dark .estiloBotao{
+    background-color: white;
+}
+
+input{ 
+    visibility: hidden;
+}
+
+body.dark .texto-sobre1 h2 {
+    color: white;
+}
+
+body.dark .texto-sobre1 p{
+    color: white;
+}
+
+body.dark .menu a{
+    color: white;
+}
+
+body.dark a:hover {
+    color: #2E8B57;
+   
+}
+
+body.dark .texto-sobre h1 {
+    color: white;
+}
+
+body.dark .texto-sobre p{
+    color: white;
+}
+
